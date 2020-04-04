@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="928f2852-781d-4acf-aff9-bc45b0331e47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Spark_assignments_L2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Outputs/tes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/log_file_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/log_file_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache_spark_l2_assignments.py" beforeDir="false" afterPath="$PROJECT_DIR$/apache_spark_l2_assignments.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,24 +14,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apache_spark_l2_assignments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="199">
+              <caret line="158" column="31" lean-forward="true" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#0#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Inputs/log_file.txt">
+        <entry file="file://$PROJECT_DIR$/Outputs/tes.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="298" column="32" selection-start-line="298" selection-start-column="32" selection-end-line="298" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -52,6 +52,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Inputs/log_file.txt" />
+        <option value="$PROJECT_DIR$/Inputs/log_file_test.txt" />
+        <option value="$PROJECT_DIR$/Outputs/JSON_File/part-00000-0f81acb2-236d-49e3-9a71-988c9b4a4b59-c000.json" />
+        <option value="$PROJECT_DIR$/Outputs/tes.json" />
         <option value="$PROJECT_DIR$/apache_spark_l2_assignments.py" />
       </list>
     </option>
@@ -80,6 +83,11 @@
               <item name="Spark_assignments_L2" type="462c0819:PsiDirectoryNode" />
               <item name="Inputs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Spark_assignments_L2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spark_assignments_L2" type="462c0819:PsiDirectoryNode" />
+              <item name="Outputs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -88,7 +96,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Outputs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Spark\Spark_assignments_L2\Outputs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,44 +154,93 @@
       <option name="presentableId" value="Default" />
       <updated>1585824595540</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;Spark Assignment L2&quot;">
+      <created>1585832211894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585832211894</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4159226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39613527" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4347826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Spark Assignment L2&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Spark Assignment L2&quot;" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Outputs/proto.parquet/part-00001-d6bfdf02-44c2-4310-9bd6-0da9989a7116-c000.snappy.parquet" />
+    <entry file="file://$PROJECT_DIR$/Outputs/proto.parquet/part-00003-d6bfdf02-44c2-4310-9bd6-0da9989a7116-c000.snappy.parquet" />
+    <entry file="file://$PROJECT_DIR$/Outputs/proto.parquet/part-00004-d6bfdf02-44c2-4310-9bd6-0da9989a7116-c000.snappy.parquet" />
+    <entry file="file://$PROJECT_DIR$/Outputs/proto.parquet/part-00005-d6bfdf02-44c2-4310-9bd6-0da9989a7116-c000.snappy.parquet" />
+    <entry file="file://$PROJECT_DIR$/Outputs/proto.parquet/part-00002-d6bfdf02-44c2-4310-9bd6-0da9989a7116-c000.snappy.parquet" />
+    <entry file="file://$PROJECT_DIR$/Outputs/proto.parquet/part-00000-d6bfdf02-44c2-4310-9bd6-0da9989a7116-c000.snappy.parquet" />
+    <entry file="file://$PROJECT_DIR$/Outputs/test.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Outputs/test.json/part-00000-3efa1725-4512-4416-a69d-ce8be3343302-c000.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Outputs/test1.json/part-00000-c307f69f-1446-4d05-a6cf-af6aa7c07e7b-c000.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Inputs/log_file.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="3383">
+          <caret line="257" column="85" selection-start-line="257" selection-start-column="83" selection-end-line="257" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inputs/log_file_test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Outputs/JSON_File/part-00000-0f81acb2-236d-49e3-9a71-988c9b4a4b59-c000.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="60" lean-forward="true" selection-start-column="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Outputs/tes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="298" column="32" selection-start-line="298" selection-start-column="32" selection-end-line="298" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apache_spark_l2_assignments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="199">
+          <caret line="158" column="31" lean-forward="true" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
